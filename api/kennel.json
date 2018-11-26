@@ -23,12 +23,6 @@
       "name": "Blaise Roberts",
       "experience": "12 years experience",
       "hobby": "Enjoy candlelit dinners with his dog"
-    },
-    {
-      "name": "Dillon",
-      "experience": "15 years",
-      "hobby": "Coding",
-      "id": 5
     }
   ],
   "locations": [
@@ -87,12 +81,6 @@
       "id": 6,
       "name": "Checkers",
       "breed": "German Shepard"
-    },
-    {
-      "name": "Lilly",
-      "breed": "Boxer",
-      "employeeId": 3,
-      "id": 7
     }
   ],
   "owners": [

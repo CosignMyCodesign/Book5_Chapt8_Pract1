@@ -15,7 +15,7 @@ export default class EmployeeList extends Component {
                             onClick={() => {
                                 this.props.history.push("/employees/new")}
                             }>
-                        Admit Employee
+                        Hire Employee
                     </button>
                 </div>
           <section className="employees">

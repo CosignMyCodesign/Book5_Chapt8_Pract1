@@ -14,6 +14,7 @@ import LocationDetail from './location/LocationDetail'
 import OwnerDetail from './owner/OwnerDetail'
 import AnimalForm from './animal/AnimalForm'
 import EmployeeForm from './employee/EmployeeForm'
+import OwnerForm from './owner/OwnerForm'
 
 
 export default class ApplicationViews extends Component {
@@ -109,6 +110,14 @@ export default class ApplicationViews extends Component {
       )
       }
 
+      addOwner = (owner) => 
+        OwnerManager.post(owner)
+        .then(() => OwnerManager.getAll())
+        .then(owners => this.setState({
+          owners: owners
+         })
+      )
+
       addEmployee = (employee) => 
         EmployeeManager.post(employee)
        .then(() => EmployeeManager.getAll())
@@ -142,7 +151,7 @@ export default class ApplicationViews extends Component {
                    return <EmployeeDetail {...props} fireEmployee={this.fireEmployee} employees={this.state.employees} />
                 }} />
                 <Route exact path="/owners" render={(props) => {
-                    return <OwnerList 
+                    return <OwnerList {...props}
                     owners={this.state.owners}
                     removeOwner={this.removeOwner} />
                 }} />
@@ -161,6 +170,10 @@ export default class ApplicationViews extends Component {
                 <Route path="/employees/new" render={(props) => {
                     return <EmployeeForm {...props}
                       addEmployee={this.addEmployee}/>
+                }} />
+                <Route path="/owners/new" render={(props) => {
+                    return <OwnerForm {...props}
+                       addOwner={this.addOwner} />
                 }} />
                 {/* End Chapter 8 insertion */}
             </React.Fragment>
