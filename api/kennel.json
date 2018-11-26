@@ -1,0 +1,124 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Stanley Brown",
+      "experience": "14 years experience",
+      "hobby": "Enjoys going fishing"
+    },
+    {
+      "id": 2,
+      "name": "Jordan Nelson",
+      "experience": "8 years experience",
+      "hobby": "Enjoys people watching"
+    },
+    {
+      "id": 3,
+      "name": "Zoeyy LeBlanc",
+      "experience": "6 years experience",
+      "hobby": "Loves to travel"
+    },
+    {
+      "id": 4,
+      "name": "Blaise Roberts",
+      "experience": "12 years experience",
+      "hobby": "Enjoy candlelit dinners with his dog"
+    },
+    {
+      "name": "Dillon",
+      "experience": "15 years",
+      "hobby": "Coding",
+      "id": 5
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "500 Circle Way",
+      "coordinates": "Latitude: 36.174465 Longitude: -86.767960"
+    },
+    {
+      "id": 2,
+      "name": "Nashville East",
+      "address": "314 Pi Lane",
+      "coordinates": "Latitude: 33.124664 Longitude: -87.946296"
+    },
+    {
+      "id": 3,
+      "name": "Nashville South",
+      "address": "10101 Binary Court",
+      "coordinates": "Latitude: 34.947104 Longitude: -84.003945"
+    },
+    {
+      "id": 4,
+      "name": "Nashville West",
+      "address": "9842740 Pythagoreans Trail",
+      "coordinates": "Latitude: 35.209384 Longitude: -85.987324"
+    }
+  ],
+  "animals": [
+    {
+      "id": 1,
+      "name": "Rodrigo",
+      "breed": "Pug"
+    },
+    {
+      "id": 2,
+      "name": "Toby",
+      "breed": "Saint Bernard"
+    },
+    {
+      "id": 3,
+      "name": "Angus",
+      "breed": "Boxer"
+    },
+    {
+      "id": 4,
+      "name": "Henley",
+      "breed": "Chihuahua"
+    },
+    {
+      "id": 5,
+      "name": "Derkins",
+      "breed": "Dalmation"
+    },
+    {
+      "id": 6,
+      "name": "Checkers",
+      "breed": "German Shepard"
+    },
+    {
+      "name": "Lilly",
+      "breed": "Boxer",
+      "employeeId": 3,
+      "id": 7
+    }
+  ],
+  "owners": [
+    {
+      "id": 1,
+      "name": "Doug",
+      "phoneNumber": "615-785-9283",
+      "email": "dougFunnyhaha@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Dale",
+      "phoneNumber": "615-556-9245",
+      "email": "ChippenDale25@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Duncan",
+      "phoneNumber": "615-234-5394",
+      "email": "DuncanDonutz@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Drake",
+      "phoneNumber": "615-456-3983",
+      "email": "DrakeIsOverrated@gmail.com"
+    }
+  ]
+}
